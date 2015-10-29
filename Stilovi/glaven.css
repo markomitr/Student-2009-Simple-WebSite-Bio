@@ -1,0 +1,318 @@
+﻿*  
+{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0;	
+}
+body
+{
+	width:800px;
+	text-align:centar;
+	margin:auto;
+}
+a
+{
+	text-decoration: none;
+	color:#757575;
+	font-family:Verdana;
+}
+p
+{
+	margin:0px;
+	padding:0px;
+}
+#Drzac
+{
+	width:800px;
+}
+#DrzacMal
+{
+	width:250px;
+}
+#Meni
+{
+ width:auto;
+ height:75px;
+ border-bottom:1px solid #007d1c;
+ margin-bottom:3px;
+ margin-top:3px;
+}
+#LogoGrance
+{
+ position:relative;
+ top:0;
+ left:0;
+ width:85px;
+ height:70px;
+ float:left;
+ background:url('../Sliki/vazna.png') no-repeat;
+}
+#Naslov
+{
+	width:300px;
+	height:40px;
+	float:left;
+	font-family:Times New Roman;
+	font-size:1.7em;
+	color:Green;
+	padding-top:25px;
+	padding-left:5px;
+	text-align:center;
+}
+#Centar
+{
+ width:auto;
+ height:295px;
+ border-bottom:1px solid #007d1c;
+ margin-bottom:2px;
+}
+#Sodrzina
+{
+ width:auto;
+ height:390;
+}
+#Footer
+{
+ width:800;
+ margin-top:9px;
+ border-top:1px solid #007d1c;
+ text-align:center;
+ font-size:0.8em;
+ color:#030;
+}
+.cls
+{
+ clear:both;
+}
+#Meni ul
+{
+ float:right;
+}
+#Meni ul li
+{
+  display:inline-block;
+  float:left;
+  margin-left:15px;
+  background:url('../Sliki/grance1.png') no-repeat;
+  width:85px;
+  height:70px;
+  text-align:center;
+  font-size:1.1em;
+}
+#Meni ul li a
+{
+	width:85px;
+	height:70px;
+	font-size:0.9em;
+	font-style:italic;
+	display:block;
+	font-family:Times New Roman;
+	color:Green;
+}
+#granceD1,#granceD2
+{
+ position:fixed;
+ width:150px;
+ height:118px;
+ z-index:10;
+}
+#granceD1
+{
+ 
+ bottom:0;
+ left:0;
+ background:url('../Sliki/granceD1.png') no-repeat;
+}
+#granceD2
+{
+ bottom:0;
+ right:0;
+ background:url('../Sliki/granceD1.png') no-repeat;
+}
+#BioG,#Hobi,#Quote
+{
+ width:400px;
+ margin:auto;
+ font-family:Verdana;
+ font-style:Italic;
+ font-size:0.8em;
+ color:#228D00;
+ 
+}
+#Quote
+{
+ width:500px;
+ text-align:center;
+ font-size:1.3em;
+}
+#NavodnikG,#NavodnikD
+{
+ position:relative;
+ /*display:block;*/
+ 
+}
+#NavodnikG
+{
+ margin-left:25px;
+ margin-top:10px;
+}
+#NavodnikD
+{
+ float:right;
+ margin-right:25px;
+}
+.selektImg
+{
+ border:2px solid Green;
+}
+
+
+
+
+#Novosti {
+ /*display:block;*/
+ width:250px;
+ float:left;
+ margin-right:9px;
+ margin-left:5px;
+ display:block;
+ height:175px;
+ overflow:hidden;
+ margin-top:5px;
+ pading:3px;
+ } 
+
+ #Novosti .Naslov {
+	 font-family:Verdana;
+	 font-size:0.8em;
+	 color:#FFF;
+	 border:solid 1px #939aa0;
+	 overflow:hidden; 
+	 float:left;
+	 width:250px;
+	 height:35px;
+	 text-align:Center;
+	 background-color:#393;
+	 display:block;
+}
+
+#Novosti .NovostText{
+	 font-family:Verdana;
+	 text-align:left;
+	 padding-top:5px;
+	 font-size:0.8em;
+	 background-color:White;
+	 width:250px;
+	 overflow:hidden;
+	 float:left;
+	 display:block;
+	 word-wrap: break-word;
+	 color:#363;
+	 font-style:italic;
+}
+
+#NovostiGolemo {
+ /*display:block;*/
+ width:495px;
+ float:left;
+ margin-right:5px;
+ display:block;
+ } 
+
+ #NovostiGolemo .Naslov {
+	 font-family:Verdana;
+	 font-size:1.2em;
+	 font-weight:bold;
+	 color:#FFF;
+	 border:solid 1px #939aa0;
+	 overflow:hidden; 
+	 float:left;
+	 width:495px;
+	 height:40px;
+	 text-align:Center;
+	 background-color:#393;
+	 display:block;
+}
+
+#NovostiGolemo .NovostText{
+	 font-family:Verdana;
+	 text-align:left;
+	 padding-top:5px;
+	 font-size:1.05em;
+	 background-color:White;
+	 width:495px;
+	 overflow:hidden;
+	 float:left;
+	 display:block;
+}
+.ekoSlika
+{
+	position:relative;
+	float:left;
+	top:0px;
+}
+.Potenciraj
+{
+	cursor:pointer;
+	text-decoration:underline;
+}
+.Zatvori
+{
+	color:#030;
+	font-size:1.0em;
+	font-style:italic;
+	float:right;
+/*	position:absolute;
+	bottom:0px;
+	right:0px;*/
+	cursor:pointer;
+	padding-top:5px;
+}
+.biogTxt
+{
+ margin:auto;
+ width:540px;
+ font-family:Verdana;
+ font-style:Italic;
+ font-size:0.8em;
+ color:#228D00;
+ text-align:left;
+ padding:5px;
+ vertical-align:top;
+}
+
+
+.Naslovna
+{
+  border-bottom: 1px #007d1c;
+  border-bottom-style: dashed;
+  color: #363;
+  margin-bottom:5px;
+  margin-top:5px;
+  font-size:1em;
+  font-style:italic;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+#tabelaHobi
+{
+	width:800px;
+	max-width:800px;
+}
+
+#tabelaHobi .slikaHobi
+{
+	width:120px;
+}
+#tabelaHobi .textHobi
+{
+	width:275px;
+	max-width:275px;
+	font-family:Verdana;
+	font-style:Italic;
+	font-size:0.7em;
+	color:#228D00;
+	vertical-align:top;
+	padding-top:10px;
+	
+}
